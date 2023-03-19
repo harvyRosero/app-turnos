@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Turnos Empleados</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="te">TextView</string>
+    <string name="text">TextView</string>
+    <string name="e">TODO</string>
+    <string name="marcar_entrada">Marcar Entrada</string>
+    <string name="marcar_salida">MARCAR SALIDA</string>
+</resources>

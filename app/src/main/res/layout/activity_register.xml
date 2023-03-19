@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        app:srcCompat="@android:drawable/ic_menu_compass"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="logo" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:layout_below="@id/imageView"
+        android:minHeight="48dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_name"
+        android:hint="Codigo unipersonal"
+        android:minHeight="48dp"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/et_empleo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_codigo"
+        android:hint="Empleo"
+        android:minHeight="48dp"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_empleo"
+        android:text="Registrar" />
+
+
+
+</RelativeLayout>
